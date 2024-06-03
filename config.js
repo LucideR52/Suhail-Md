@@ -26,7 +26,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "0701117998";
 
 
 
@@ -47,7 +47,7 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
-global.readcmds = process.env.READ_COMMAND || "false"
+global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "LUCIDEr-ᴍᴅ",
+  ownername:process.env.OWNER_NAME|| "It'x LUCIDER",
 
 
   errorChat : process.env.ERROR_CHAT || "",
